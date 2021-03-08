@@ -124,6 +124,7 @@ int main() {
       while(response == false) {
 	cout << "Do you want to play again? (Answer y or n)" << endl;
 	cin >> playAgain;
+	cin.get();
 	if (playAgain == 'N' || playAgain == 'n') {
 	  stillPlaying = false;
 	  response = true;
